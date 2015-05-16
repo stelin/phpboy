@@ -16,6 +16,8 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+	    'application.extensions.*',
+	    'application.extensions.smarty.sysplugins.*',
 	),
 
 	'defaultController'=>'post',
@@ -68,6 +70,9 @@ return array(
 				*/
 			),
 		),
+	    'smarty'=>array(
+	        'class'=>'application.extensions.CSmarty',
+	    ),
 	),
 
 	// application-level parameters that can be accessed
