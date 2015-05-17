@@ -14,9 +14,9 @@ class CSmarty extends Smarty {
 	function __construct() {
 		parent::__construct();
 		$this -> template_dir = SMARTY_VIEW_DIR;
-		$this -> compile_dir = SMARTY_VIEW_DIR . self::DIR_SEP . 'template_c';
+		$this -> compile_dir = dirname(__FILE__).'/../runtime/smarty' . self::DIR_SEP . 'template_c';
 		$this -> caching = true;
-		$this -> cache_dir = SMARTY_VIEW_DIR . self::DIR_SEP . 'cache';
+		$this -> cache_dir = dirname(__FILE__).'/../runtime/smarty' . self::DIR_SEP . 'cache';
 		$this -> left_delimiter = '<{';
 		$this -> right_delimiter = '}>';
 		$this -> cache_lifetime = 0;

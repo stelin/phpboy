@@ -944,3 +944,329 @@ Stack trace:
 #8 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
 #9 D:\www\phpboy\index.php(8): CWebApplication->run()
 REQUEST_URI=/
+2015/05/17 10:47:44 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:47:53 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:47:55 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:47:56 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:48:41 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:49:40 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:49:41 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:49:42 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:49:43 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:49:44 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:49:45 [error] [exception.SmartyException] exception 'SmartyException' with message 'Unable to load template file 'test.html'' in D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php:127
+Stack trace:
+#0 D:\www\phpboy\protected\extensions\smarty\sysplugins\smarty_internal_templatebase.php(362): Smarty_Internal_TemplateBase->fetch('test.html', NULL, NULL, NULL, true)
+#1 D:\www\phpboy\protected\components\Controller.php(28): Smarty_Internal_TemplateBase->display('test.html')
+#2 D:\www\phpboy\protected\controllers\ArticleController.php(8): Controller->display('test.html')
+#3 D:\www\lib\web\actions\CInlineAction.php(49): ArticleController->actionIndex()
+#4 D:\www\lib\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\www\lib\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\www\lib\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\www\lib\web\CWebApplication.php(282): CController->run('')
+#8 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article')
+#9 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\www\phpboy\index.php(8): CApplication->run()
+#11 {main}
+REQUEST_URI=/article/1111.html
+---
+2015/05/17 10:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:50:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:52:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:52:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:52:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:53:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:53:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:53:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
+2015/05/17 10:54:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "1111a".' in D:\www\lib\web\CController.php:483
+Stack trace:
+#0 D:\www\lib\web\CController.php(270): CController->missingAction('1111a')
+#1 D:\www\lib\web\CWebApplication.php(282): CController->run('1111a')
+#2 D:\www\lib\web\CWebApplication.php(141): CWebApplication->runController('article/1111a')
+#3 D:\www\lib\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\www\phpboy\index.php(8): CApplication->run()
+#5 {main}
+REQUEST_URI=/article/1111a.html
+---
