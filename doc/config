@@ -1,0 +1,17 @@
+一、去掉index.php
+	
+	1、apache开启重写模块
+	2、虚拟主机配置AllowOverride设置为all
+	3、新建.htaccess，内容如下
+		<IfModule mod_rewrite.c>
+		Options +FollowSymLinks
+		IndexIgnore */*
+		RewriteEngine on
+		
+		# if a directory or a file exists, use it directly
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteCond %{REQUEST_FILENAME} !-d
+		
+		# otherwise forward it to index.php
+		RewriteRule . index.php
+		</IfModule>

@@ -20,7 +20,7 @@ return array(
 	    'application.extensions.smarty.sysplugins.*',
 	),
 
-	'defaultController'=>'post',
+	'defaultController'=>'index',
 
 	// application components
 	'components'=>array(
@@ -45,14 +45,14 @@ return array(
 		*/
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
-			'errorAction'=>'site/error',
+			'errorAction'=>'error',
 		),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+		    'showScriptName' => false, //去掉index.php
+		    'urlSuffix' => '.html',
 			'rules'=>array(
-				'post/<id:\d+>/<title:.*?>'=>'post/view',
-				'posts/<tag:.*?>'=>'post/index',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+			    'article/<id:\d+>' => 'article' 
 			),
 		),
 		'log'=>array(

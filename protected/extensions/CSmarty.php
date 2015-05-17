@@ -17,8 +17,8 @@ class CSmarty extends Smarty {
 		$this -> compile_dir = SMARTY_VIEW_DIR . self::DIR_SEP . 'template_c';
 		$this -> caching = true;
 		$this -> cache_dir = SMARTY_VIEW_DIR . self::DIR_SEP . 'cache';
-		$this -> left_delimiter = '<!--{';
-		$this -> right_delimiter = '}-->';
+		$this -> left_delimiter = '<{';
+		$this -> right_delimiter = '}>';
 		$this -> cache_lifetime = 0;
 	}
 	function init() {
